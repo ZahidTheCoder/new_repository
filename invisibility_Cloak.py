@@ -1,8 +1,6 @@
 import cv2
 import numpy as np
 
-
-#url = "https://192.168.1.7:8080/video"
 cam = cv2.VideoCapture(0)
 
 lower = np.array([154,125,0])
